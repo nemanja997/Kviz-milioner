@@ -1,0 +1,10 @@
+Koji je glavni grad Srbije?;Stokholm;Beograd;Istanbul;Segedin;2
+Kada je nastao Google?;1999;1991;2003;1998;4
+Koliko postoji vremenskih zona?;100;24;13;9;2
+Nas najpoznatiji teniser je?;Viktor Troicki;Novak Djokovic;Janko Tipsarevic;Nenad Zimonjic;2
+CIme se hrane pingvini?;Planktonima;Ribom;Travom;Morskim zvezdama;1
+Koji je glavni grad Ukraine?;Madrid;Bec;Donjeck;Kiev;4
+Koji element se obelezava sa H?;Ugljenik;Kiseonik;Vodonik;Aluminijum;3
+Koja je najveca zivotinja na svetu?;Tigar;Slon;Kit;Zirafa;3
+Koja je najduza reka Evrope?;Vltava;Dunav;Volga;Morava;3
+Ko je izumeo parnu masinu?;James Watt;Albert Einstein;Maria Kiri;Kristofer Columbo;1
