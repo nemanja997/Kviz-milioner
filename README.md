@@ -1,6 +1,6 @@
 Kviz igra
 
-/*Nemanja Kazic NRT-49/16*/
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -182,3 +182,4 @@ void pomoc_prijatelja(char n){                                 //Funkcija za pom
         printf("\nVas odgovor je:");
     }
 }
+```
