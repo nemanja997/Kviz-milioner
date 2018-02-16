@@ -1,15 +1,17 @@
 Kviz igra
 
 ```
+  //Pitanja moraju biti u formatu: 
+  // PITANJE;PRVI_ODGOVOR;DRUGI_ODGOVOR;TRECI_ODGOVOR;CETVRTI_ODGOVOR;BROJ_TACNOG_ODGOVORA
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #define BROJ_PITANJA 9      //Kada se menja broj pitanja dovoljno je ovde uneti novi broj
 
-struct pitanje{             // definisanje strukture koja cuva pitanja koja se uzimaju iz fajla
-	char tekst_pitanja[120];    //Pitanja moraju biti u formatu: PITANJE;PRVI_ODGOVOR;DRUGI_ODGOVOR;TRECI_ODGOVOR;CETVRTI_ODGOVOR;BROJ_TACNOG_ODGOVORA
-	char odgovor1[30];          ////Fajl iz koga se izvlace pitanja mora nositi naziv "pitanja.txt"
+struct pitanje{                              // definisanje strukture koja cuva pitanja koja se uzimaju iz fajla
+	char tekst_pitanja[120];  
+	char odgovor1[30];          
 	char odgovor2[30];
 	char odgovor3[30];
 	char odgovor4[30];
@@ -45,8 +47,10 @@ void pocetni_meni(){
 void pomoc(){
     char odabir1;
     printf("\nU ovoj igri cete dobijati pitanja na koja treba da odgovorite tacno.");
-    printf("\nDa biste tacno odgovorili na pitanje potrebno je da pritisnete broj koji mislite da obelezava tacan odgovor.");
-    printf("\nImate pravo 2 puta da pogresite,a kada pogresite gubite pola osvojene sume.Treci put kada pogresite ispadate iz igre. ");
+    printf("\nDa biste tacno odgovorili na pitanje potrebno je da pritisnete ");
+	 printf("broj koji mislite da obelezava tacan odgovor.");
+    printf("\nImate pravo 2 puta da pogresite,a kada pogresite gubite ");
+	 printf("pola osvojene sume.Treci put kada pogresite ispadate iz igre. ");
     printf("\n1.Pocetni ekran");
     printf("\n2.Zapocni igru\n");
     odabir1=getchar();
@@ -148,7 +152,7 @@ void igra(){
             izbor=toupper(getchar());
             if(izbor=='D')
                 pocetni_meni();
-            else                                                 //Ako igrac ne pritisne d, onda vise nije bitno sta je pritisnuo,program ce se zavrsiti
+            else                                     //Ako igrac ne pritisne d, program ce se zavrsiti
             		exit(0);
         }
 
