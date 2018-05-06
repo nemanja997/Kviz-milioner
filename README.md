@@ -11,7 +11,7 @@ Sve što treba da uradite je da skinete **main.exe fajl** i da ga pokrenete.
 
 ## Radjeno uz pomoć
 
-* [Code Blocks IDE](http://www.codeblocks.org/) - The web framework used
+* [Code Blocks IDE](http://www.codeblocks.org/)
 
 
 ## Autori
