@@ -14,7 +14,7 @@ Sve što treba da uradite je da skinete **main.exe fajl** i da ga pokrenete.
 * [Code Blocks IDE](http://www.codeblocks.org/)
 
 
-## Autori
+## Autor
 
 * **Nemanja Kažić** 
 
