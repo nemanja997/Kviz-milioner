@@ -1,20 +1,18 @@
-# Igra kviz "milioner"
+# Quiz "Millionaire"
 
-Igra je rađena po uzoru na kviz "želite li da postanete milioner"
-
-
-
-### Pokretanje
-
-Sve što treba da uradite je da skinete **main.exe fajl** i da ga pokrenete.
+The game is replicating quiz show "Millionaire".
 
 
-## Radjeno uz pomoć
+### Running
+All you need to do is download **main.exe file** and run it.
+
+
+## Build with
 
 * [Code Blocks IDE](http://www.codeblocks.org/)
 
 
-## Autor
+## Author
 
 * **Nemanja Kažić** 
 
