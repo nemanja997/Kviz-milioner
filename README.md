@@ -12,8 +12,5 @@ All you need to do is download **main.exe file** and run it. **Be sure that pita
 * [Code Blocks IDE](http://www.codeblocks.org/)
 
 
-## Author
-
-* **Nemanja Kažić** 
 
 
